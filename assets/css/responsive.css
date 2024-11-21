@@ -1,3 +1,5 @@
+ 
+
 @media all and (max-width: 1199px){
 
 }
@@ -6,14 +8,90 @@
 	
 }
 
-@media all and (max-width: 767px){
-	
+@media all and (max-width: 767px){ 
+    .live_carousel p { 
+        font-size: 10px; 
+    }
+    .live_carousel .owl-next img {
+        width: 54px !important;
+    }
+    .live_carousel .owl-next { 
+        top: 8px;
+        right: -53px; 
+    }
 }
 
 @media all and (max-width: 575px){
-	
+	.login_btn ul li a { 
+        font-size: 16px; 
+    }
+    .live_sport ul li a {
+        font-size: 20px; 
+    }
+    .live_carousel img {
+        width: 34px !important; 
+    }
+    .live_video img {
+        width: 50px;
+    }
+    .live_carousel .owl-next img {
+        width: 46px !important;
+    }
+    .tble_border::after { 
+        right: 2px; 
+    }
+    .ekipa_game_live tr td p span, .ekipa_game_live tr td p, .ekipa_game_live tr td, .ekipa_game_live tr th {
+ 
+        font-size: 16px; 
+    }
+    .deposit_box p {
+        font-size: 14px; 
+    }
+    .top_lig h3 {
+        font-size: 20px; 
+    }
+    .top_lig a { 
+        font-size: 16px; 
+    }
+    .top_lig img {
+        width: 24px;
+    }
+    .footer_content p {
+        font-size: 14px; 
+    }
+    .footer_content { 
+        width: 95%; 
+    }
 }
 
 @media all and (max-width: 450px){
-	
+	.header_area {
+        padding: 15px 15px;
+    } 
+    .live_sport ul li a {
+        font-size: 16px; 
+    }
+    .bars_btn i {
+        font-size: 20px; 
+    }
+    .live_carousel .owl-next { 
+        right: -37px;
+    }
+    .bars_btn { 
+        width: 35px;
+        height: 35px; 
+        border-radius: 5px; 
+    }
+    .live_carousel .owl-next img {
+        width: 40px !important;
+    }
+    .logo_bars ul { 
+        gap: 16px;
+    }
+    .logo_bars ul li a img {
+        width: 60px;
+    }
+    .login_btn ul { 
+        gap: 15px;
+    }
 }

@@ -1,4 +1,6 @@
  
+  
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 html{
 	font-size: 62.5%;
@@ -6,6 +8,7 @@ html{
 body{	
 	font-size: 1.6rem; 
 	font-weight: 400;
+	font-family: "Montserrat", sans-serif;
 }
 h1,h2,h3,h4,h5,h6,p{
 	margin: 0;
@@ -22,10 +25,386 @@ ul li a,a{
 /*======================  Start Page  ======================*/
 
 
+.main_area{
+	width: 100%;
+	max-width: 720px;
+	margin: 0 auto;
+	background: #160e29;
+}
+
+.header_area{
+	padding: 20px 30px;
+}
+
+.header {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+
+.logo_bars ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	gap: 35px;
+}
+
+.logo_bars ul li a img {
+	width: 85px;
+}
+
+.bars_btn {
+	background: #835A9D;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	-webkit-box-shadow: 0 2px 10px #352D59;
+	        box-shadow: 0 2px 10px #352D59;
+	border-radius: 10px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.bars_btn i {
+	font-size: 30px;
+	color: #fff;
+}
+
+.login_btn ul li a {
+	text-transform: capitalize;
+	font-size: 24px;
+	color: #fefefe;
+	font-weight: 500;
+}
+
+.login_btn ul { 
+	display: -webkit-box; 
+	display: -ms-flexbox; 
+	display: flex;
+	gap: 30px;
+}
+
+.btn_1 {
+	background: #462768;
+	padding: 8px 12px;
+	text-transform: uppercase !important;
+}
+
+.live_sport {
+	background: #231745;
+	padding: 12px 30px;
+}
+
+.live_sport ul li a {
+	font-size: 31px;
+	color: #fefefe;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.live_sport ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+
+.after_border{
+	position: relative;
+}
+
+/* .after_border::after {
+	content: "";
+	position: absolute;
+	top: 0px;
+	right: -48px;
+	width: 3px;
+	height: 42px;
+	background: #fefefe;
+} */
+
+.game_area {
+	padding: 10px 0;
+}
+
+.game_item img {
+	width: 100% !important;
+}
+
+.live_game {
+	padding: 15px 30px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	background: #231747;
+	gap: 35px;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.live_carousel {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 71%;
+	        flex: 0 0 71%;
+	width: 70%;
+	/* overflow: hidden; */
+}
+
+.live_carousel p {
+	color: #fefefe;
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 2px;
+}
+
+.live_carousel img {
+	width: 51px !important;
+	margin: 0 auto;
+}
+
+.live_carousel ul li  {
+	text-align: center;
+}
+
+.live_game{
+	position: relative;
+}
+
+.owl-prev {
+	display: none !important;
+}
+
+.live_carousel .owl-next {
+	position: absolute;
+	top: 5px;
+	right: -88px;
+	z-index: 999;
+}
+
+.live_carousel .owl-theme .owl-nav {
+	margin-top: 0;
+}
+
+.live_carousel .owl-next img {
+	width: 68px !important;
+}
+
+.live_carousel  .owl-theme .owl-nav [class*="owl-"]:hover {
+	background: transparent;
+	outline: none;
+}
+
+.ekipa_game_live table {
+	width: 100%;
+}
+
+.ekipa_game_live tr td p span ,
+.ekipa_game_live tr td p ,
+.ekipa_game_live tr td ,
+.ekipa_game_live tr th {
+	color: #fefefe;
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: uppercase; 
+}
+
+.ekipa_game_live thead {
+	background: #683990; 
+}
+
+.ekipa_game_live tr th {
+	padding: 2px 10px;
+}
+ 
+.ekipa_game_live tr td {
+	padding: 4px 10px;
+}
+
+.tble_border { 
+	position: relative;
+} 
+
+.tble_border::after {
+	content: "";
+	position: absolute;
+	top: 9px;
+	right: 10px;
+	width: 1px;
+	height: 53px;
+	background: #fefefe;
+}
+
+.tble_tr_border {
+	border-bottom: 1px solid #ddd;
+}
+
+.text_center_tb td {
+	text-align: center;
+}
+
+.tble_tr_border.text_center_tb td {
+	height: 71px;
+}
+
+.deposit_area{
+	padding: 20px;
+}
+
+.deposit_box {
+	width: 100%;
+	max-width: 325px;
+	height: 210px;
+	background: #835A9D; 
+	display: -webkit-box; 
+	display: -ms-flexbox; 
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;  
+	-webkit-box-pack: center;  
+	    -ms-flex-pack: center;  
+	        justify-content: center;
+}
 
 
+.deposit_box p {
+	font-size: 20px;
+	color: #fefefe;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 10px;
+}
 
+.deposit_flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 25px;
+	-webkit-box-pack: space-evenly;
+	    -ms-flex-pack: space-evenly;
+	        justify-content: space-evenly;
+}
 
+.top_lig{
+	position: relative;
+	z-index: 99;
+	padding-bottom: 450px;
+}
+
+.top_lig h3 {
+	font-size: 31px;
+	color: #fefefe;
+	font-weight: 500;
+	text-transform: uppercase; 
+}
+
+.top_lig img {
+	width: 35px;
+}
+
+.top_lig ul li { 
+	padding: 16px 20px;
+	background: #241847;
+	border-top: 1px solid #fefefe;
+}
+
+.top_border_none {  
+	border-top: 1px solid transparent !important;
+}
+
+.top_lig a {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	gap: 12px;
+	font-size: 20px;
+	font-weight: 500;
+	color: #fefefe;
+	text-transform: uppercase;
+}
+
+.top_lig a {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	gap: 12px;
+}
+
+.top_leg_area{
+	position: relative;
+}
+
+.lig_bg_img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.lig_bg_img img {
+	width: 90%;
+}
+
+.footer_content {
+	text-align: center;
+	width: 70%;
+	padding: 20px 0;
+	margin: 0 auto;
+}
+
+.footer_content p {
+	font-size: 16px;
+	font-weight: 500;
+	margin: 10px 0; 
+	color: #fefefe;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+.footer_content span {
+	font-size: 12px;
+	font-weight: 500;
+	color: #fefefe;
+	text-transform: uppercase;
+}
+
+.after_border {
+	display: inline-block;
+	width: 2px;
+	height: 100%;
+	background: #fff;
+}
 
 /*======================  End Page  ======================*/
 
