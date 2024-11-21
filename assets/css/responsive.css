@@ -37,6 +37,9 @@
     .tble_border::after { 
         height: 40px; 
     }
+    .tble_tr_border.text_center_tb td {
+        height: 60px;
+    }
     .live_carousel .owl-next img {
         width: 46px !important;
     }
