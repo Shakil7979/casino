@@ -34,6 +34,9 @@
     .live_video img {
         width: 50px;
     }
+    .tble_border::after { 
+        height: 40px; 
+    }
     .live_carousel .owl-next img {
         width: 46px !important;
     }
