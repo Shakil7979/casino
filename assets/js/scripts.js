@@ -1,10 +1,15 @@
 $(document).ready(function(){
 	// Mobile Menu
-	// $('.logo a i').click(function(){
-	// 	$('.menu ul').slideToggle(1000);
+	$('.bars_btn, .eki_btn').click(function (e) {
+		e.preventDefault();  
+	
+		$('.menu_drop').slideDown(1000);  
+	});
 
-	// 	return false
-	// });
+	$('.close_menu').click(function (e) {
+		e.preventDefault();   
+		$('.menu_drop').slideUp(1000);  
+	});
 
 	// Banner Carousel
 	$('.game_carousel').owlCarousel({
